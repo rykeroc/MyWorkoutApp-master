@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.mainscreen.SignInActivity">
+
+    <TextView
+        android:id="@+id/siSignInText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign-In"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"/>
+
+    <view
+        android:id="@+id/siEmailView"
+        class="com.google.android.material.card.MaterialCardView"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:cardBackgroundColor="#AFAFAF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/siSignInText"
+        app:layout_constraintVertical_bias="0.050000012">
+
+        <view
+            android:id="@+id/siEmailInput"
+            class="com.google.android.material.textfield.TextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:hint="Email"
+            android:minHeight="48dp"
+            android:scaleX="0.98"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="370dp" />
+    </view>
+
+    <view
+        android:id="@+id/siPasswordView"
+        class="com.google.android.material.card.MaterialCardView"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:cardBackgroundColor="#AFAFAF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/siEmailView"
+        app:layout_constraintVertical_bias="0.050000012">
+
+        <view
+            android:id="@+id/siPasswordInput"
+            class="com.google.android.material.textfield.TextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:hint="Passworrd"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:scaleX="0.98"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="370dp" />
+    </view>
+
+    <Button
+        android:id="@+id/siSignInButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Sign-In"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/siPasswordView"
+        app:layout_constraintVertical_bias="0.115" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

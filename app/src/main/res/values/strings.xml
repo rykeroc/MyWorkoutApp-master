@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyWorkoutApp</string>
+    <string name="workouts">Workout</string>
+    <string name="logs">Log</string>
+    <string name="exercises">Exercise</string>
+    <string name="workout_tracker">Workout Tracker</string>
+    <string name="new_exercise">New Exercise</string>
+</resources>

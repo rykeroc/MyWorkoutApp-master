@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.mainscreen.RegisterAccountActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="127dp"
+        android:layout_height="364dp"
+        android:layout_marginBottom="428dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/personicon_black" />
+
+    <TextView
+        android:id="@+id/RegisterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <view
+        android:id="@+id/FNameView"
+        class="com.google.android.material.card.MaterialCardView"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:cardBackgroundColor="#AFAFAF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RegisterText"
+        app:layout_constraintVertical_bias="0.019">
+
+        <view
+            android:id="@+id/raFNameInput"
+            class="com.google.android.material.textfield.TextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:hint="First Name"
+            android:minHeight="48dp"
+            android:scaleX="0.98"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="370dp" />
+    </view>
+
+    <view
+        android:id="@+id/LNameView"
+        class="com.google.android.material.card.MaterialCardView"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:cardBackgroundColor="#AFAFAF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FNameView"
+        app:layout_constraintVertical_bias="0.050000012">
+
+        <view
+            android:id="@+id/raLNameInput"
+            class="com.google.android.material.textfield.TextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:hint="Last Name"
+            android:minHeight="48dp"
+            android:scaleX="0.98"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="370dp" />
+    </view>
+
+    <view
+        android:id="@+id/UsernameView"
+        class="com.google.android.material.card.MaterialCardView"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:cardBackgroundColor="#AFAFAF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LNameView"
+        app:layout_constraintVertical_bias="0.050000012">
+
+        <view
+            android:id="@+id/raUsernameInput"
+            class="com.google.android.material.textfield.TextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:hint="Username"
+            android:minHeight="48dp"
+            android:scaleX="0.98"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="370dp" />
+    </view>
+
+
+    <view
+        android:id="@+id/EmailView"
+        class="com.google.android.material.card.MaterialCardView"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:cardBackgroundColor="#AFAFAF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UsernameView"
+        app:layout_constraintVertical_bias="0.050000012">
+
+        <EditText
+            android:id="@+id/raEmailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:scaleX="0.98"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="351dp" />
+    </view>
+
+    <view
+        android:id="@+id/PasswordView"
+        class="com.google.android.material.card.MaterialCardView"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:cardBackgroundColor="#AFAFAF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmailView"
+        app:layout_constraintVertical_bias="0.050000012">
+
+        <EditText
+            android:id="@+id/raPasswordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:scaleX="0.98"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="406dp" />
+    </view>
+
+    <Button
+        android:id="@+id/raRegisterButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordView"
+        app:layout_constraintVertical_bias="0.115" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

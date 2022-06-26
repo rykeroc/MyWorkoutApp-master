@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myworkoutapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyWorkoutApp">
+
+        <activity
+            android:name=".activities.workouts.CreateWorkoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.logs.LogsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.exercises.CreateExercisesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.workouts.WorkoutActivity"
+            android:exported="true"
+            />
+        <activity
+            android:name=".activities.exercises.ExercisesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.mainmenu.SettingsMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.mainscreen.TitleActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.mainmenu.MainMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.mainscreen.MainScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.mainscreen.RegisterAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.mainscreen.SignInActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

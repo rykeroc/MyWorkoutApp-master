@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="../../../../../../layout/custom_preview.xml" value="0.19154676258992806" />
+        <entry key="..\:/Users/ryker/Dropbox/Code/Android/WorkoutTracker/projectfolder/app/src/main/res/layout/activity_create_exercises.xml" value="0.4" />
+        <entry key="..\:/Users/ryker/Dropbox/Code/Android/WorkoutTracker/projectfolder/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/ryker/Dropbox/Code/Android/WorkoutTracker/projectfolder/app/src/main/res/layout/activity_main_menu.xml" value="0.264" />
+        <entry key="..\:/Users/ryker/Dropbox/Code/Android/WorkoutTracker/projectfolder/app/src/main/res/layout/activity_main_screen.xml" value="0.4" />
+        <entry key="..\:/Users/ryker/Dropbox/Code/Android/WorkoutTracker/projectfolder/app/src/main/res/layout/activity_register_account.xml" value="0.264" />
+        <entry key="..\:/Users/ryker/Dropbox/Code/Android/WorkoutTracker/projectfolder/app/src/main/res/layout/activity_settings_menu.xml" value="0.1945288753799392" />
+        <entry key="..\:/Users/ryker/Dropbox/Code/Android/WorkoutTracker/projectfolder/app/src/main/res/layout/activity_settings_pop_up.xml" value="0.2884963768115942" />
+        <entry key="..\:/Users/ryker/Dropbox/Code/Android/WorkoutTracker/projectfolder/app/src/main/res/layout/activity_sign_in.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/activity_create_exercises.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_create_exercises_pop_up.xml" value="0.6" />
+        <entry key="app/src/main/res/layout/activity_create_workout.xml" value="0.19506172839506172" />
+        <entry key="app/src/main/res/layout/activity_exercises.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_logs.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3611111111111111" />
+        <entry key="app/src/main/res/layout/activity_main_menu.xml" value="0.20347394540942929" />
+        <entry key="app/src/main/res/layout/activity_main_screen.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.2351851851851852" />
+        <entry key="app/src/main/res/layout/activity_register_account.xml" value="0.8" />
+        <entry key="app/src/main/res/layout/activity_settings_menu.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.43171697179614055" />
+        <entry key="app/src/main/res/layout/activity_title_screen.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_workout.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/checkable_view.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/deletable_exercise_view.xml" value="0.18135764944275581" />
+        <entry key="app/src/main/res/layout/deletable_view.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/exercise_workut_button.xml" value="0.335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.335" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
